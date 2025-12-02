@@ -3,6 +3,6 @@ from django.shortcuts import render
 
 # Create your views here.
 
-def index(request):
+def home(request):
     print('HOME')
     return HttpResponse('home do app')
