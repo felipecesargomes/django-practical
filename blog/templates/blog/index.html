@@ -1,0 +1,9 @@
+{% extends 'global/base.html' %}
+
+{% block texto %} BLOG {% endblock texto %}
+
+{% block conteudo %}
+{% for i in range %}
+    {% include "global/partials/paragrafo.html" %}
+{% endfor %}
+{% endblock conteudo %}
